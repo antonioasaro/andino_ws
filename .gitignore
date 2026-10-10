@@ -52,3 +52,4 @@ src/gazebo_differential_drive_robot/urdf/robot.urdf
 .vscode/browse.vc.db-wal
 *.db-wal
 .vscode/browse.vc.db-wal
+log/latest_build
