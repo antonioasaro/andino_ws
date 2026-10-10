@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/serial_mcu_demo.dir/serial_mcu_demo.cpp.o -o serial_mcu_demo  -Wl,-rpath,/home/ubuntu/andino_ws/build/andino_base/src: -lgflags ../src/libserial_mcu.so -L/usr/lib/x86_64-linux-gnu -lserial -pthread 

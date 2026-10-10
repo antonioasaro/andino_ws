@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/ubuntu/andino_ws/build/andino_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_navigation
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.539s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.615s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.616s] -- Added test 'lint_cmake' to check CMake code style
+[0.616s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.618s] -- Added test 'xmllint' to check XML markup files
+[0.620s] -- Configuring done
+[0.624s] -- Generating done
+[0.626s] -- Build files have been written to: /home/ubuntu/andino_ws/build/andino_navigation
+[0.630s] Invoked command in '/home/ubuntu/andino_ws/build/andino_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_navigation
+[0.631s] Invoking command in '/home/ubuntu/andino_ws/build/andino_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_navigation -- -j12 -l12
+[0.670s] Invoked command in '/home/ubuntu/andino_ws/build/andino_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_navigation -- -j12 -l12
+[0.672s] Invoking command in '/home/ubuntu/andino_ws/build/andino_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_navigation
+[0.677s] -- Install configuration: ""
+[0.677s] -- Execute custom install script
+[0.678s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//launch/bringup.launch.py
+[0.685s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//launch/include/navigation_launch.py
+[0.695s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//params/README.md
+[0.706s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//params/nav2_params_humble.yaml
+[0.715s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//params/nav2_params_jazzy.yaml
+[0.727s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation//rviz/nav2_default_view.rviz
+[0.739s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/ament_index/resource_index/package_run_dependencies/andino_navigation
+[0.749s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/ament_index/resource_index/parent_prefix_path/andino_navigation
+[0.758s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/environment/ament_prefix_path.sh
+[0.766s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/environment/ament_prefix_path.dsv
+[0.774s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/environment/path.sh
+[0.781s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/environment/path.dsv
+[0.788s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/local_setup.bash
+[0.798s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/local_setup.sh
+[0.806s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/local_setup.zsh
+[0.814s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/local_setup.dsv
+[0.821s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/package.dsv
+[0.828s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/ament_index/resource_index/packages/andino_navigation
+[0.836s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/cmake/andino_navigationConfig.cmake
+[0.844s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/cmake/andino_navigationConfig-version.cmake
+[0.852s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_navigation/share/andino_navigation/package.xml
+[0.860s] Invoked command in '/home/ubuntu/andino_ws/build/andino_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_navigation

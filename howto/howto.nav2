@@ -1,0 +1,2 @@
+ros2 launch andino_gz andino_gz.launch.py nav2:=True
+

@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/andino_ws/build/andino_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control//config/andino_controllers.yaml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control//launch/andino_control.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/package_run_dependencies/andino_control
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/parent_prefix_path/andino_control
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.bash
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.zsh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/package.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/packages/andino_control
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/cmake/andino_controlConfig.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/cmake/andino_controlConfig-version.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/package.xml

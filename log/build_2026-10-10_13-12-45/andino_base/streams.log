@@ -1,0 +1,84 @@
+[0.035s] Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_base
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.547s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.616s] -- Found hardware_interface: 2.54.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.671s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.708s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.018s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.056s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.111s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.124s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.127s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.134s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.155s] -- Looking for pthread.h
+[1.216s] -- Looking for pthread.h - found
+[1.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.279s] -- Found Threads: TRUE  
+[1.333s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.334s] -- Checking for module 'libserial'
+[1.345s] --   Found libserial, version 1.0.0
+[1.384s] -- Found ament_cmake_clang_format: 0.12.15 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.445s] -- Configuring done
+[1.462s] -- Generating done
+[1.466s] -- Build files have been written to: /home/ubuntu/andino_ws/build/andino_base
+[1.474s] Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_base
+[1.475s] Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_base -- -j12 -l12
+[1.522s] [ 14%] [32mBuilding CXX object src/CMakeFiles/serial_mcu.dir/serial_mcu.cpp.o[0m
+[1.989s] [ 28%] [32m[1mLinking CXX shared library libserial_mcu.so[0m
+[2.069s] [ 28%] Built target serial_mcu
+[2.086s] [ 57%] [32mBuilding CXX object applications/CMakeFiles/serial_mcu_demo.dir/serial_mcu_demo.cpp.o[0m
+[2.086s] [ 57%] [32mBuilding CXX object src/CMakeFiles/diffdrive_andino.dir/diffdrive_andino.cpp.o[0m
+[2.088s] [ 71%] [32mBuilding CXX object src/CMakeFiles/diffdrive_andino.dir/wheel.cpp.o[0m
+[2.423s] [ 85%] [32m[1mLinking CXX executable serial_mcu_demo[0m
+[2.487s] [ 85%] Built target serial_mcu_demo
+[4.604s] [100%] [32m[1mLinking CXX shared library libdiffdrive_andino.so[0m
+[4.711s] [100%] Built target diffdrive_andino
+[4.722s] Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_base -- -j12 -l12
+[4.723s] Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_base
+[4.730s] -- Install configuration: ""
+[4.730s] -- Execute custom install script
+[4.730s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/library_path.sh
+[4.736s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/library_path.dsv
+[4.743s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base//andino_hw.xml
+[4.750s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/package_run_dependencies/andino_base
+[4.756s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/parent_prefix_path/andino_base
+[4.762s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/ament_prefix_path.sh
+[4.769s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/ament_prefix_path.dsv
+[4.775s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/path.sh
+[4.782s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/path.dsv
+[4.789s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.bash
+[4.795s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.sh
+[4.801s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.zsh
+[4.807s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.dsv
+[4.814s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/package.dsv
+[4.820s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/packages/andino_base
+[4.827s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/andino_base
+[4.834s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/cmake/andino_baseConfig.cmake
+[4.840s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/cmake/andino_baseConfig-version.cmake
+[4.847s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/package.xml
+[4.854s] -- Installing: /home/ubuntu/andino_ws/install/andino_base/bin/serial_mcu_demo
+[4.854s] -- Set runtime path of "/home/ubuntu/andino_ws/install/andino_base/bin/serial_mcu_demo" to ""
+[4.855s] -- Installing: /home/ubuntu/andino_ws/install/andino_base/lib/libdiffdrive_andino.so
+[4.856s] -- Set runtime path of "/home/ubuntu/andino_ws/install/andino_base/lib/libdiffdrive_andino.so" to ""
+[4.856s] -- Installing: /home/ubuntu/andino_ws/install/andino_base/lib/libserial_mcu.so
+[4.858s] Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_base

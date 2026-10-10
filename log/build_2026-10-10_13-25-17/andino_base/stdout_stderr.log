@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.54.2 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libserial'
+--   Found libserial, version 1.0.0
+-- Found ament_cmake_clang_format: 0.12.15 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/andino_ws/build/andino_base
+[ 14%] [32mBuilding CXX object src/CMakeFiles/serial_mcu.dir/serial_mcu.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libserial_mcu.so[0m
+[ 28%] Built target serial_mcu
+[ 42%] [32mBuilding CXX object applications/CMakeFiles/serial_mcu_demo.dir/serial_mcu_demo.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/CMakeFiles/diffdrive_andino.dir/diffdrive_andino.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/CMakeFiles/diffdrive_andino.dir/wheel.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable serial_mcu_demo[0m
+[ 85%] Built target serial_mcu_demo
+[100%] [32m[1mLinking CXX shared library libdiffdrive_andino.so[0m
+[100%] Built target diffdrive_andino
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/library_path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base//andino_hw.xml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/package_run_dependencies/andino_base
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/parent_prefix_path/andino_base
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/environment/path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.bash
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.zsh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/local_setup.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/package.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/packages/andino_base
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/andino_base
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/cmake/andino_baseConfig.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/cmake/andino_baseConfig-version.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_base/share/andino_base/package.xml
+-- Installing: /home/ubuntu/andino_ws/install/andino_base/bin/serial_mcu_demo
+-- Set runtime path of "/home/ubuntu/andino_ws/install/andino_base/bin/serial_mcu_demo" to ""
+-- Installing: /home/ubuntu/andino_ws/install/andino_base/lib/libdiffdrive_andino.so
+-- Set runtime path of "/home/ubuntu/andino_ws/install/andino_base/lib/libdiffdrive_andino.so" to ""
+-- Installing: /home/ubuntu/andino_ws/install/andino_base/lib/libserial_mcu.so

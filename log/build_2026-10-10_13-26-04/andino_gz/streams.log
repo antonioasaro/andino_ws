@@ -1,0 +1,86 @@
+[0.035s] Invoking command in '/home/ubuntu/andino_ws/build/andino_gz': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/home/ubuntu/andino_ws/install/andino_base:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_gz -- -j12 -l12
+[0.080s] Built target ament_cmake_python_symlink_andino_gz
+[0.247s] running egg_info
+[0.248s] writing andino_gz.egg-info/PKG-INFO
+[0.248s] writing dependency_links to andino_gz.egg-info/dependency_links.txt
+[0.248s] writing top-level names to andino_gz.egg-info/top_level.txt
+[0.249s] reading manifest file 'andino_gz.egg-info/SOURCES.txt'
+[0.250s] writing manifest file 'andino_gz.egg-info/SOURCES.txt'
+[0.270s] Built target ament_cmake_python_build_andino_gz_egg
+[0.279s] Invoked command in '/home/ubuntu/andino_ws/build/andino_gz' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/home/ubuntu/andino_ws/install/andino_base:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_gz -- -j12 -l12
+[0.280s] Invoking command in '/home/ubuntu/andino_ws/build/andino_gz': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/home/ubuntu/andino_ws/install/andino_base:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_gz
+[0.286s] -- Install configuration: ""
+[0.286s] -- Execute custom install script
+[0.286s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/pythonpath.sh
+[0.286s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/pythonpath.dsv
+[0.287s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/PKG-INFO
+[0.287s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/SOURCES.txt
+[0.287s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/dependency_links.txt
+[0.287s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/top_level.txt
+[0.288s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/__init__.py
+[0.288s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/__init__.py
+[0.288s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/substitutions.py
+[0.288s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config/bridge_config.yaml
+[0.288s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config/nav2_params.yaml
+[0.289s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config_gui/default.config
+[0.289s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_albedo.png
+[0.289s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_normal.png
+[0.289s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_roughness.png
+[0.289s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_Color.jpg
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_NormalDX.jpg
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_Roughness.jpg
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/logo.jpeg
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_diff_4k.jpg
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_nor_gl_4k.exr
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_rough_4k.exr
+[0.290s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_diff_4k.jpg
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_nor_gl_4k.exr
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_rough_4k.exr
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/doors.dae
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/frame.dae
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/logo.dae
+[0.291s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/roof.dae
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/tiles.dae
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/walls.dae
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/windows.dae
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/wood.dae
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/model.config
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/model.sdf
+[0.292s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/andino_gz.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/include/gz_ros_bridge.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/include/spawn_robot.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/slam_toolbox_online_async.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/view_frames.launch.py
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/depot/depot.pgm
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/depot/depot.yaml
+[0.293s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/office/office.pgm
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/office/office.yaml
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//rviz/andino_gz.rviz
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//rviz/andino_gz_nav2.rviz
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//urdf/andino_gz.urdf.xacro
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//urdf/include/andino_materials.xacro
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/LICENSE_depot
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/depot.sdf
+[0.294s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/empty.sdf
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/office.sdf
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/populated_office.sdf
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/andino_gz.dsv
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/andino_gz.sh
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/package_run_dependencies/andino_gz
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/parent_prefix_path/andino_gz
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/ament_prefix_path.sh
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/ament_prefix_path.dsv
+[0.295s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/path.sh
+[0.296s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/path.dsv
+[0.296s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.bash
+[0.296s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.sh
+[0.296s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.zsh
+[0.296s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.dsv
+[0.296s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/package.dsv
+[0.304s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/packages/andino_gz
+[0.304s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/cmake/andino_gzConfig.cmake
+[0.304s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/cmake/andino_gzConfig-version.cmake
+[0.304s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/package.xml
+[0.326s] Listing '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz'...
+[0.326s] Listing '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools'...
+[0.331s] Invoked command in '/home/ubuntu/andino_ws/build/andino_gz' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/home/ubuntu/andino_ws/install/andino_base:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_gz

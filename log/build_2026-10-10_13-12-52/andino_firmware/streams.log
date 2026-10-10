@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/home/ubuntu/andino_ws/build/andino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_firmware -- -j12 -l12
+[0.099s] Invoked command in '/home/ubuntu/andino_ws/build/andino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_firmware -- -j12 -l12
+[0.104s] Invoking command in '/home/ubuntu/andino_ws/build/andino_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_firmware
+[0.109s] -- Install configuration: ""
+[0.113s] -- Execute custom install script
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//andino_firmware.ino
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//platformio.ini
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/app/app.cpp
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/app/pid.cpp
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/app/shell.cpp
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/clock_arduino.cpp
+[0.113s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/digital_out_arduino.cpp
+[0.115s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/imu_arduino.cpp
+[0.115s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/interrupt_in_arduino.cpp
+[0.115s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/pwm_out_arduino.cpp
+[0.115s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/bsp/serial_stream_arduino.cpp
+[0.115s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/drivers/encoder.cpp
+[0.118s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/drivers/motor.cpp
+[0.119s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware//src/main.cpp
+[0.120s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/ament_index/resource_index/package_run_dependencies/andino_firmware
+[0.120s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/ament_index/resource_index/parent_prefix_path/andino_firmware
+[0.120s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/environment/ament_prefix_path.sh
+[0.120s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/environment/path.sh
+[0.122s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/environment/path.dsv
+[0.123s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/local_setup.bash
+[0.129s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/local_setup.sh
+[0.130s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/local_setup.zsh
+[0.130s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/local_setup.dsv
+[0.131s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/package.dsv
+[0.134s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/ament_index/resource_index/packages/andino_firmware
+[0.134s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/cmake/andino_firmwareConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/cmake/andino_firmwareConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/ubuntu/andino_ws/install/andino_firmware/share/andino_firmware/package.xml
+[0.176s] Invoked command in '/home/ubuntu/andino_ws/build/andino_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_firmware

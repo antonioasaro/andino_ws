@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/andino_ws/build/andino_gz
+Built target ament_cmake_python_symlink_andino_gz
+running egg_info
+creating andino_gz.egg-info
+writing andino_gz.egg-info/PKG-INFO
+writing dependency_links to andino_gz.egg-info/dependency_links.txt
+writing top-level names to andino_gz.egg-info/top_level.txt
+writing manifest file 'andino_gz.egg-info/SOURCES.txt'
+reading manifest file 'andino_gz.egg-info/SOURCES.txt'
+writing manifest file 'andino_gz.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_andino_gz_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/pythonpath.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/pythonpath.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz-0.1.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/__init__.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/__init__.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/substitutions.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config/bridge_config.yaml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config/nav2_params.yaml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//config_gui/default.config
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_albedo.png
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_normal.png
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/roof/TCom_Scifi_Panel_512_roughness.png
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_Color.jpg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_NormalDX.jpg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/tiles/Tiles054_1K-JPG_Roughness.jpg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/logo.jpeg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_diff_4k.jpg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_nor_gl_4k.exr
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/walls/macro_flour_rough_4k.exr
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_diff_4k.jpg
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_nor_gl_4k.exr
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/materials/textures/wood/wood_floor_rough_4k.exr
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/doors.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/frame.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/logo.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/roof.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/tiles.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/walls.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/windows.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/meshes/wood.dae
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/model.config
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//models/office/model.sdf
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/andino_gz.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/include/gz_ros_bridge.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/include/spawn_robot.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/slam_toolbox_online_async.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//launch/view_frames.launch.py
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/depot/depot.pgm
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/depot/depot.yaml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/office/office.pgm
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//maps/office/office.yaml
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//rviz/andino_gz.rviz
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//rviz/andino_gz_nav2.rviz
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//urdf/andino_gz.urdf.xacro
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//urdf/include/andino_materials.xacro
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/LICENSE_depot
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/depot.sdf
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/empty.sdf
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/office.sdf
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz//worlds/populated_office.sdf
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/andino_gz.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/andino_gz.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/package_run_dependencies/andino_gz
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/parent_prefix_path/andino_gz
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/path.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/environment/path.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.bash
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.sh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.zsh
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/local_setup.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/package.dsv
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/ament_index/resource_index/packages/andino_gz
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/cmake/andino_gzConfig.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/cmake/andino_gzConfig-version.cmake
+-- Symlinking: /home/ubuntu/andino_ws/install/andino_gz/share/andino_gz/package.xml
+Listing '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz'...
+Compiling '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/__init__.py'...
+Listing '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools'...
+Compiling '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/__init__.py'...
+Compiling '/home/ubuntu/andino_ws/install/andino_gz/local/lib/python3.10/dist-packages/andino_gz/launch_tools/substitutions.py'...

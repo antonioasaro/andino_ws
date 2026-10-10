@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/ubuntu/andino_ws/build/andino_control': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_control
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.403s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.509s] -- Configuring done
+[0.513s] -- Generating done
+[0.515s] -- Build files have been written to: /home/ubuntu/andino_ws/build/andino_control
+[0.520s] Invoked command in '/home/ubuntu/andino_ws/build/andino_control' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_control
+[0.521s] Invoking command in '/home/ubuntu/andino_ws/build/andino_control': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_control -- -j12 -l12
+[0.552s] Invoked command in '/home/ubuntu/andino_ws/build/andino_control' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_control -- -j12 -l12
+[0.553s] Invoking command in '/home/ubuntu/andino_ws/build/andino_control': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_control
+[0.558s] -- Install configuration: ""
+[0.559s] -- Execute custom install script
+[0.559s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control//config/andino_controllers.yaml
+[0.566s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control//launch/andino_control.launch.py
+[0.572s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/package_run_dependencies/andino_control
+[0.579s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/parent_prefix_path/andino_control
+[0.585s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/ament_prefix_path.sh
+[0.592s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/ament_prefix_path.dsv
+[0.599s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/path.sh
+[0.607s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/environment/path.dsv
+[0.614s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.bash
+[0.623s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.sh
+[0.629s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.zsh
+[0.637s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/local_setup.dsv
+[0.644s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/package.dsv
+[0.650s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/ament_index/resource_index/packages/andino_control
+[0.658s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/cmake/andino_controlConfig.cmake
+[0.665s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/cmake/andino_controlConfig-version.cmake
+[0.672s] -- Symlinking: /home/ubuntu/andino_ws/install/andino_control/share/andino_control/package.xml
+[0.680s] Invoked command in '/home/ubuntu/andino_ws/build/andino_control' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/andino_ws/install/andino_description:/home/ubuntu/andino_ws/install/andino_base:/home/ubuntu/andino_ws/install/andino_gz:/home/ubuntu/andino_ws/install/andino_slam:/home/ubuntu/andino_ws/install/andino_navigation:/home/ubuntu/andino_ws/install/andino_hardware:/home/ubuntu/andino_ws/install/andino_firmware:/home/ubuntu/andino_ws/install/andino_bringup:/home/ubuntu/andino_ws/install/andino_control:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_control

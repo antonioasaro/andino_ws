@@ -1,0 +1,1 @@
+ros2 run xacro xacro ./src/andino/andino_description/urdf/andino.urdf.xacro > ./src/andino/andino_description/urdf/andino.urdf.urdf

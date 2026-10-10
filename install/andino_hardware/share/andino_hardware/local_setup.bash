@@ -1,0 +1,1 @@
+/home/ubuntu/andino_ws/build/andino_hardware/ament_cmake_environment_hooks/local_setup.bash

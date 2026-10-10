@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_base
+Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/andino_ws/src/andino/andino_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/andino_ws/install/andino_base
+Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_base -- -j12 -l12
+Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/andino_ws/build/andino_base -- -j12 -l12
+Invoking command in '/home/ubuntu/andino_ws/build/andino_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_base
+Invoked command in '/home/ubuntu/andino_ws/build/andino_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/andino_ws/build/andino_base
