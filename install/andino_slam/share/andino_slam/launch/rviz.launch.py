@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino/andino_slam/launch/rviz.launch.py

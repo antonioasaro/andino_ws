@@ -1,3 +1,0 @@
-/home/ubuntu/andino_ws/install/andino_base/bin/serial_mcu_demo
-/home/ubuntu/andino_ws/install/andino_base/lib/libdiffdrive_andino.so
-/home/ubuntu/andino_ws/install/andino_base/lib/libserial_mcu.so

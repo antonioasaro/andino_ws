@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino_gz/andino_gz/launch/andino_gz.launch.py

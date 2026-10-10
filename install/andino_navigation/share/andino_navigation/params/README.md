@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino/andino_navigation/params/README.md

@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino/andino_firmware/src/drivers/motor.cpp

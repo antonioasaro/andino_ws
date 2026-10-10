@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/build/andino_gz/ament_cmake_python/andino_gz/andino_gz.egg-info/SOURCES.txt

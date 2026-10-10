@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino/andino_firmware/src/bsp/digital_out_arduino.cpp

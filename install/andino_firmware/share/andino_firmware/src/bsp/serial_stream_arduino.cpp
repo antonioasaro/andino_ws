@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/src/andino/andino_firmware/src/bsp/serial_stream_arduino.cpp

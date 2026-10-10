@@ -1,1 +1,0 @@
-/home/ubuntu/andino_ws/build/andino_slam/ament_cmake_environment_hooks/local_setup.zsh
