@@ -6,9 +6,9 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/opt/ros/jazzy/include/**",
-        "/home/ubuntu/andino_ws/src/andino/andino_base/include/**",
-        "/home/ubuntu/andino_ws/src/andino/andino_firmware/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/antonio/andino_ws/src/andino/andino_base/include/**",
+        "/home/antonio/andino_ws/src/andino/andino_firmware/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

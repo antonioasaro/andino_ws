@@ -1,15 +1,17 @@
 {
-    "name": "ROS 2 Development Container",
+    "name": "OOMWOO Development Container",
     "privileged": true,
-    "remoteUser": "ubuntu",
+    "remoteUser": "antonio",
+    "workspaceFolder": "/home/antonio/${localWorkspaceFolderBasename}",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/antonio/${localWorkspaceFolderBasename},type=bind",
     "build": {
-        "dockerfile": "Dockerfile",
+        "context": "../src/andino_gz",
+        "dockerfile": "../src/andino_gz/docker/dockerfile",
         "args": {
-            "USER": "ubuntu"
+            "USER": "antonio",
+            "USERID": "1000"
         }
     },
-    "workspaceFolder": "/home/ubuntu/andino_ws",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/home/ubuntu/andino_ws,type=bind",
     "customizations": {
         "vscode": {
             "extensions":[
@@ -19,15 +21,7 @@
                 "donjayamanne.python-extension-pack",
                 "eamodio.gitlens",
                 "ms-iot.vscode-ros"
-            ],
-            "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash",
-                "terminal.integrated.profiles.linux": {
-                    "bash": {
-                        "path": "/bin/bash"
-                    }
-                }
-            }
+            ]
         }
     },
     "containerEnv": {
@@ -45,7 +39,7 @@
     "mounts": [
        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
        "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached",
-       "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_aliases,target=/home/ubuntu/.bash_aliases,type=bind"
+       "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_aliases,target=/home/antonio/.bash_aliases,type=bind"
 
     ]
 }
